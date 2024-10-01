@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo List</title>
+</head>
+<body>
+    <h1>P1</h1>
+    <h2>Aluno: Jeferson de Oliveira Cardoso</h2>
+    <h2>Matrícula: 202220887</h2>
+    <h2>Orientador: Rodrigo</h2>
+    <ul>
+        {% for todo in todos %} 
+            <li>{{ todo.title }}</li> 
+        {% endfor %}
+    </ul>
+</body>
+</html>
